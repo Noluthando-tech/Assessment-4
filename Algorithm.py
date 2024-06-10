@@ -51,8 +51,8 @@ graph = {
 start_node = 'DBN'
 end_node = 'JHB'
 
-# Calculate the shortest path and distance
+
 shortest_distance, path = dijkstra(graph, start_node, end_node)
 
-# Print the result
+
 print(f"The shortest path from {start_node} to {end_node} is {path} with a total cost of {shortest_distance}")
